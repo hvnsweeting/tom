@@ -1,6 +1,8 @@
 # tom
 A simple - no dependency Swift script that chases your mouse on MacOS (works for Monterey)
 
+![TomMi](./Mi.jpeg)
+
 ## What it does?
 Move your mouse up then down every 10 seconds.
 
@@ -13,11 +15,16 @@ Instead of download random software on internet, let just write simple 10 lines
 of Swift that is native on MacOS without install anything (I don't know but if
 it does, please file an issue).
 
+## Why `tom`
+What move a mouse? A cat
+
+Who is the most famous cat on the world? Tom (& Jerry)
+
 ## Install
 Download `tom` file  and chmod to allow it to run.
 
 ```
-curl -LO https://raw.githubusercontent.com/hvnsweeting/tom/main/tom && chmod a+x tom
+curl -Lo tom https://raw.githubusercontent.com/hvnsweeting/tom/main/tom.swift && chmod a+x tom
 ```
 
 ## Usage
