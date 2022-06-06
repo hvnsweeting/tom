@@ -16,7 +16,8 @@ while 1 < 1000 {
     direction = 1
   } else {
     print(current)
-    CGDisplayMoveCursorToPoint(CGMainDisplayID(), CGPoint(x: current.x, y: (current.y + 10)))
+    CGDisplayMoveCursorToPoint(CGMainDisplayID(), CGPoint(x: current.x, y: (current.y - 10)))
+    print(NSEvent.mouseLocation)
     direction = 0
   }
   print("moved")
