@@ -4,7 +4,7 @@ A simple - no dependency Swift script that chases your mouse on MacOS (works for
 ![TomMi](./Mi.jpeg)
 
 ## What it does?
-Move your mouse up then down every 10 seconds.
+Keep the display on and move your mouse up then down every 10 seconds.
 
 ## Why
 At the time of writing this, the great UI automation lib
@@ -24,8 +24,12 @@ Who is the most famous cat on the world? Tom (& Jerry)
 Download `tom` file  and chmod to allow it to run.
 
 ```
-curl -Lo tom https://raw.githubusercontent.com/hvnsweeting/tom/main/tom.swift && chmod a+x tom
+curl -LO https://raw.githubusercontent.com/hvnsweeting/tom/main/tom.swift
+curl -LO https://raw.githubusercontent.com/hvnsweeting/tom/main/tom && chmod a+x tom
 ```
+
+## Dependency
+[Swift compiler](https://www.swift.org/download/)
 
 ## Usage
 Open terminal, then type
@@ -34,11 +38,7 @@ Open terminal, then type
 ./tom
 ```
 
-Or
-
-```
-swift tom
-```
+To stop, press Ctrl c.
 
 ## Test
 Tested on Swift 5 on MacOS Monterey 12.4

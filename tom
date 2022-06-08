@@ -1,0 +1,4 @@
+#!/bin/sh
+trap "killall caffeinate" SIGINT
+caffeinate -d &
+swift tom.swift
